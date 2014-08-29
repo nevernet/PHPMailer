@@ -14,6 +14,23 @@
  * @license http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
+/*
+yii main.php 配置
+
+'mailer'=>array(
+        'host'=>'',
+        'port'=>25,
+        'username'=>'',
+        'password'=>'',
+        'isSMTP'=>true,
+        'SMTPAuth'=>true,
+        'SMTPSecure'=>'',
+        'from'=>'notify@example.com',
+        'fromName'=>'notify',
+    ),
+
+*/
+
 require __DIR__.'/../extensions/phpmailer/PHPMailerAutoload.php';
 
 class CMail extends CApplicationComponent{
